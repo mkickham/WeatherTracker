@@ -24,7 +24,7 @@ body{
     top: 100px;
     left: 0;
     width: 200px;
-    height: 200px;
+    height: 100px;
     padding: 20px;
     overflow-y: auto;
     border-right: 1px solid blue;
@@ -42,7 +42,14 @@ body{
     border-bottom: 1px solid blue;
 }
 
-.container{
+.city-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.fiveDay{
     display: flex;
     justify-content: center;
     align-items: center;
